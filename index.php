@@ -4,19 +4,17 @@
   <title>Humans &middot; FRC Team 4501</title>
   <link href="style/reset.css" rel="stylesheet" type='text/css'/>
   <link href="style/site.css" rel="stylesheet" type='text/css'/>
+  <link href='http://fonts.googleapis.com/css?family=Coustard|Open+Sans:300italic,400italic,700italic,400,300,600,700,800|Open+Sans+Condensed:700|Roboto+Slab:700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
   <header>
-      <div id="logo"></div>
+      <img src="/humans/style/images/logo.png" id="logo" />
   </header>
   <nav>
     <ul>
-      <li><a href="/about">About</a></li>
-      <li><a href="/team">Team</a></li>
-      <li><a href="/bots">Bots</a></li>
-      <li><a href="/contact">Contact</a></li>
-  </ul>
+      <li><a href="/team">Team</a></li><li><a href="/bots">Robots</a></li><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li>
+    </ul>
   </nav>
   <main>
     <article>
