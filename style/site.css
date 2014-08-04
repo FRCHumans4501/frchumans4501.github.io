@@ -3,6 +3,10 @@ body {
 	font-size: 12pt;
 }
 
+.fixed {
+	position: fixed;
+}
+
 /*
  * IDEA: Header has slideshow of images that it cycles through over time
  */
