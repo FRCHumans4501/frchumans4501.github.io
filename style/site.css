@@ -51,7 +51,7 @@ nav > ul {
 
 nav > ul > li {
 	display: inline-block;
-	width: 256px;
+	width: 20%;
 	height: 100%;
 	line-height: 60px;
 }
@@ -70,6 +70,36 @@ nav > ul > li > a {
 
 nav > ul > li:hover {
 	background: rgba(0, 0, 0, 0.25);
+}
+
+#sponsors {
+	width: 900px;
+	height: 200px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	background: black;
+}
+
+#sponsors > #largesponsors {
+	width: 100%;
+	height: 150px
+}
+
+#sponsors > #largesponsors > li {
+	display: inline-block;
+	width: 300px;
+	height: 150px;
+}
+
+#sponsors > #smallsponsors {
+	width: 100%;
+	height: 50px;
+}
+
+#sponsors > #smallsponsors > li {
+	display: inline-block;
+	width: 180px;
+	height: 50px;
 }
 
 main {

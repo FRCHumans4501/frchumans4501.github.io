@@ -4,14 +4,28 @@
     <body>
     {% include header.html %}
     <main>
+		<section id="sponsors">
+	      <ul id="largesponsors">
+	        <li><a href="http://www.usfirst.org/"><img src="/style/images/frc.png" /></a></li><!--
+	        --><li><a href="http://www.nasa.gov/"><img src="/style/images/nasa.png" /></a></li><!--
+	        --><li><a href="http://www.newroads.org/"><img src="/style/images/newroads.png" /></a></li>
+	      </ul>
+	      <ul id="smallsponsors">
+	        <li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
+	        --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
+	        --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
+	        --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
+	        --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li>
+	      </ul>
+	    </section>
       {{ content }}
     </main>
     {% include footer.html %}
     <section id="hashtag">
-      <a href="https://twitter.com/search?f=realtime&amp;q=%23frc4501">#FRC4501</a>
+		<a href="https://twitter.com/search?f=realtime&amp;q=%23frc4501">#FRC4501</a>
     </section>
     <section id="socialmedia">
-      <a href="https://www.facebook.com/HumansRobotics"><img src="{{ "/style/images/facebook.png" | prepend: site.baseurl }}" /></a><a href="https://www.twitter.com/humans4501"><img src="{{ "/style/images/twitter.png" | prepend: site.baseurl }}" /></a>
+		<a href="https://www.facebook.com/HumansRobotics"><img src="{{ "/style/images/facebook.png" | prepend: site.baseurl }}" /></a><a href="https://www.twitter.com/humans4501"><img src="{{ "/style/images/twitter.png" | prepend: site.baseurl }}" /></a>
     </section>
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
   	<script type="text/javascript" src="{{ "/script/site.js" | prepend: site.baseurl }}"></script>
