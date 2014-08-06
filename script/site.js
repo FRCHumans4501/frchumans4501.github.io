@@ -2,6 +2,11 @@ function scrollUpdate() {
 	var scrolled = $(window).scrollTop();
 	var mod = 285;
 
+	var logoOpacity = ((mod - scrolled) / mod);
+	logoOpacity = logoOpacity <= 0 ? 0 : logoOpacity;
+
+	$("#header-background img").css('opacity', logoOpacity);
+
 	if (scrolled > mod) {
 		$('header').addClass('fixed');
 		$('#header-background').addClass('pointer');
