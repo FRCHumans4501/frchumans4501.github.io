@@ -20,7 +20,7 @@ layout: default
     <!-- {{ post.date | date: "%b %-d, %Y" }} -->
     <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
     {{ post.content }}
-    <span>Posted on {{ page.date }}</span>
+    <span>Posted on {{ post.date }}</span>
   </article>
 {% endfor %}
 

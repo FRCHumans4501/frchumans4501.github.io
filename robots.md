@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Robots
-permalink: /robots/
+permalink: /bots/
 ---
 
 Our Robots
