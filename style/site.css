@@ -15,6 +15,10 @@ header.fixed {
 	top: -285px;
 }
 
+main.correctTop {
+	top: 360px;
+}
+
 /*
  * IDEA: Header has slideshow of images that it cycles through over time
  */
@@ -103,9 +107,8 @@ nav > ul > li:hover {
 }
 
 main {
-	position: absolute;
+	position: relative;
 	width: 1024px;
-	top: 360px;
 	z-index: -2;
 	left: 50%;
 	margin-left: -512px;
@@ -181,6 +184,7 @@ article > span {
 		color: #9b00b3;
 		font-weight: bold;
 		text-decoration: none;
+		z-index: -1;
 	}
 
 	#hashtag a:hover {
@@ -192,6 +196,7 @@ article > span {
 		bottom: 0;
 		right: 0;
 		margin: 25px;
+		z-index: -1;
 	}
 
 	#socialmedia a {
@@ -202,4 +207,31 @@ article > span {
 @media screen and (max-width: 1199px) {
 	#hashtag { display: none; }
 	#socialmedia { display: none; }
+}
+
+footer {
+	width: 100%;
+	height: 360px;
+	background: #222;
+	z-index: 1;
+}
+
+#footer-container {
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#footer-container > section {
+	width: 33%;
+	height: 100%;
+	font-size: 1.5em;
+	color: #888;
+}
+
+#footer-container > section > a {
+	color: white;
+	border-bottom: 1px dotted #DDD;
+    text-decoration: none;
 }
