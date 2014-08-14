@@ -10,10 +10,12 @@ function scrollUpdate() {
 	if (scrolled > mod) {
 		$('header').addClass('fixed');
 		$('main').addClass('correctTop');
+		$('footer').addClass('correctTop');
 		$('#header-background').addClass('pointer');
 	} else {
 		$('header').removeClass('fixed');
 		$('main').removeClass('correctTop');
+		$('footer').removeClass('correctTop');
 		$('#header-background').removeClass('pointer');
 	}
 }

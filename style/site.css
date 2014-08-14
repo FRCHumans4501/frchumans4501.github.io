@@ -15,7 +15,7 @@ header.fixed {
 	top: -285px;
 }
 
-main.correctTop {
+.correctTop {
 	top: 360px;
 }
 
@@ -178,13 +178,13 @@ article > span {
 		position: fixed; 
 		bottom: 0;
 		margin: 25px;
+		z-index: -1;
 	}
 
 	#hashtag a {
 		color: #9b00b3;
 		font-weight: bold;
 		text-decoration: none;
-		z-index: -1;
 	}
 
 	#hashtag a:hover {
@@ -210,28 +210,52 @@ article > span {
 }
 
 footer {
+	position: relative;
 	width: 100%;
-	height: 360px;
+	height: 150px;
 	background: #222;
 	z-index: 1;
 }
 
 #footer-container {
 	width: 1024px;
+	height: 150px;
 	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 25px;
 }
 
 #footer-container > section {
-	width: 33%;
+	display: inline-block;
 	height: 100%;
-	font-size: 1.5em;
 	color: #888;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#footer-container > #copyright {
+	width: 33%;
+	font-size: 1.25em;
+	line-height: 1.25em;
+}
+
+#footer-container > #footer-sponsors {
+	width: 33%;
+	font-size: 1.25em;
+	line-height: 1.25em;
 }
 
 #footer-container > section > a {
 	color: white;
 	border-bottom: 1px dotted #DDD;
+	transition: color 0.5s ease;
     text-decoration: none;
+}
+
+#footer-container > section > a:hover {
+	color: #9b00b3;
 }
