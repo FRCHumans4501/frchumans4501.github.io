@@ -227,7 +227,7 @@ footer {
 	padding: 25px;
 }
 
-#footer-container > section {
+#footer-container > ul {
 	display: inline-block;
 	height: 100%;
 	color: #888;
@@ -237,29 +237,36 @@ footer {
 	padding: 10px;
 }
 
-#footer-container > #copyright {
+#footer-container > ul > #copyright {
 	width: 33%;
 	font-size: 1.25em;
 	line-height: 1.25em;
+	float: left;
 }
 
-#footer-container > #footer-sponsors {
+#footer-container > ul > #footer-sponsors {
 	width: 66%;
 	font-size: 1.25em;
 	line-height: 1.25em;
+	float: right;
 }
 
-#footer-container > #footer-sponsors > img {
+#footer-container > ul> #footer-sponsors > img {
 	width: 33%;
 	height: 100%;
 }
 
-#footer-container > section > a {
+#footer-container > ul > li {
+	display: inline-block;
+	height: 100%;
+}
+
+#footer-container > ul > li > a {
 	color: white;
 	transition: color 0.5s ease;
     text-decoration: none;
 }
 
-#footer-container > section > a:hover {
+#footer-container > ul > li > a:hover {
 	color: #9b00b3;
 }
