@@ -244,14 +244,18 @@ footer {
 }
 
 #footer-container > #footer-sponsors {
-	width: 33%;
+	width: 66%;
 	font-size: 1.25em;
 	line-height: 1.25em;
 }
 
+#footer-container > #footer-sponsors > img {
+	width: 33%;
+	height: 100%;
+}
+
 #footer-container > section > a {
 	color: white;
-	border-bottom: 1px dotted #DDD;
 	transition: color 0.5s ease;
     text-decoration: none;
 }
