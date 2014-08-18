@@ -25,6 +25,7 @@ header.fixed {
 header {
 	width: 100%;
 	height: 360px;
+	z-index: 1;
 }
 
 #header-background {
@@ -78,10 +79,21 @@ nav > ul > li:hover {
 
 #sponsors {
 	width: 900px;
-	height: 200px;
+	height: 250px;
 	margin: 0 auto;
 	margin-bottom: 25px;
 	background: black;
+}
+
+#sponsors > p {
+	height: 50px;
+    width: 100%;
+    background: #9b00b3;
+    color: white;
+    font-size: 28pt;
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
 }
 
 #sponsors > #largesponsors {
@@ -109,7 +121,6 @@ nav > ul > li:hover {
 main {
 	position: relative;
 	width: 1024px;
-	z-index: -2;
 	left: 50%;
 	margin-left: -512px;
 	margin-top: 25px;
@@ -128,7 +139,7 @@ article {
 }
 
 article > h1 {
-	font-family: "Helvetica Neue", "Arial Black", "Ubuntu";
+	font-family: "Helvetica Neue", "Arial", "Ubuntu";
 	font-weight: bold;
 	font-size: 3em;
 	margin-bottom: 10px;
