@@ -1,3 +1,9 @@
+---
+layout: post
+title:  "Markdown Test"
+date:   2014-08-17 13:21:23
+categories: posts
+---
 Markdown Tutorial Test. Read more inside.
 
 <!-- more -->
