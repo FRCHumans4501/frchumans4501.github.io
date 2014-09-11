@@ -10,3 +10,7 @@ github_username:  frchumans4501
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+#SASS
+sass:
+    sass_dir: _sass

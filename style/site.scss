@@ -1,0 +1,286 @@
+---
+---
+
+$socialWidth: 1200px;
+$fullWidth: 1024px;
+$mobileWidth: 840px;
+
+body {
+	font-family: 'PT Sans';
+	font-size: 12pt;
+}
+
+.fixed {
+	position: fixed;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+header.fixed {
+	top: -285px;
+}
+
+.correctTop {
+	top: 360px;
+}
+
+header {
+	width: 100%;
+	height: 360px;
+	z-index: 1;
+}
+
+#header-background {
+	height: 300px;
+	width: 100%;
+	background: url(/style/images/header.jpg);
+	background-position:center;
+
+	img {
+		display: block;
+		width: 700px;
+		height: 300px;
+		margin: 0 auto;
+	}
+}
+
+nav {
+	width: 100%;
+	height: 60px;
+	background: #9b00b3;
+
+	ul {
+		margin: 0 auto;
+		width: 1024px;
+		height: 100%;
+
+		li {
+			display: inline-block;
+			width: 20%;
+			height: 100%;
+			line-height: 60px;
+
+			a {
+				display: block;
+				width: 100%;
+				text-align: center;
+				color: white;
+				font-family: "Open Sans";
+				font-weight: lighter;
+				font-size: 2.5em;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+		}
+
+		li:hover {
+			background: rgba(0, 0, 0, 0.25);
+		}
+	}
+}
+
+#sponsors {
+	width: 900px;
+	height: 250px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	background: black;
+
+	p {
+		height: 50px;
+	    width: 100%;
+	    background: #9b00b3;
+	    color: white;
+	    font-size: 28pt;
+	    text-align: center;
+	    font-weight: bold;
+	    line-height: 50px;
+	}
+
+	#largesponsors {
+		width: 100%;
+		height: 150px;
+
+		li {
+			display: inline-block;
+			width: 300px;
+			height: 150px;
+		}
+	}
+
+	#smallsponsors {
+		width: 100%;
+		height: 50px;
+
+		li {
+			display: inline-block;
+			width: 180px;
+			height: 50px;
+		}
+	}
+}
+
+main {
+	position: relative;
+	width: 1024px;
+	left: 50%;
+	margin-left: -512px;
+	margin-top: 25px;
+}
+
+article {
+	width: 90%;
+	background: #F7F7F7;
+	border: 1px solid #DDD;
+	border-bottom: 1px solid #CCC;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 0 white, 0 1px 5px #F1F1F1;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	padding: 10px;
+
+	h1 {
+		font-family: "Helvetica Neue", "Arial", "Ubuntu";
+		font-weight: bold;
+		font-size: 3em;
+		margin-bottom: 10px;
+
+		a {
+			color: black;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+
+	h2 {
+		font-size: 2em;
+		font-family: "Roboto Slab";
+		line-height: 1.5em;
+	}
+
+	p {
+		line-height: 1.375em;
+		margin-bottom: 5px;
+
+		a {
+			color: black;
+			font-weight: bold;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+	}
+
+	span {
+		display: block;
+		font-size: 0.8em;
+		color: gray;
+		font-weight: bold;
+		margin-top: 10px;
+	}
+}
+
+#hashtag {
+	position: fixed; 
+	bottom: 0;
+	margin: 25px;
+	z-index: -1;
+}
+
+#hashtag a {
+	color: #9b00b3;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#hashtag a:hover {
+	text-decoration: none;
+}
+
+#socialmedia {
+	position: fixed; 
+	bottom: 0;
+	right: 0;
+	margin: 25px;
+	z-index: -1;
+}
+
+#socialmedia a {
+	margin-left: 10px;
+}
+
+@media screen and (max-width: $socialWidth) {
+	#hashtag { display: none; }
+	#socialmedia { display: none; }
+}
+
+footer {
+	position: relative;
+	width: 100%;
+	height: 150px;
+	background: #222;
+	z-index: 1;
+}
+
+#footer-container {
+	width: 1024px;
+	height: 150px;
+	margin: 0 auto;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 25px;
+
+	ul {
+		display: inline-block;
+		height: 100%;
+		color: #888;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		padding: 10px;
+		
+		#copyright {
+			width: 33%;
+			font-size: 1.25em;
+			line-height: 1.25em;
+			float: left;
+		}
+
+		#footer-sponsors {
+			width: 66%;
+			font-size: 1.25em;
+			line-height: 1.25em;
+			float: right;
+			
+			img {
+				width: 33%;
+				height: 100%;
+			}
+		}
+
+		li {
+			display: inline-block;
+			height: 100%;
+
+			a {
+				color: white;
+				transition: color 0.5s ease;
+			    text-decoration: none;
+			}
+
+			a:hover {
+				color: #9b00b3;
+			}
+		
+		}
+	}
+}
