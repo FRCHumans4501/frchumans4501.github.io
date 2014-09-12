@@ -25,7 +25,7 @@ layout: default
       {% else %}
         {{ post.content }}
       {% endif %}
-    <span>Posted on {{ post.date | date: '%B %-d, %Y' }}</span>
+    <span class="date">Posted on {{ post.date | date: '%B %-d, %Y' }}</span>
   </article>
 {% endfor %}
 
