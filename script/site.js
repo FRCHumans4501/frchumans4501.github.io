@@ -12,11 +12,13 @@ function scrollUpdate() {
 		$('main').addClass('correctTop');
 		$('footer').addClass('correctTop');
 		$('#header-background').addClass('pointer');
+		$("#header-background a").hide();
 	} else {
 		$('header').removeClass('fixed');
 		$('main').removeClass('correctTop');
 		$('footer').removeClass('correctTop');
 		$('#header-background').removeClass('pointer');
+		$("#header-background a").show();
 	}
 }
 
