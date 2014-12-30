@@ -15,7 +15,7 @@ Our Robots
 			</td>
 			<td class="robotinfo">
 				<h2>Firewall</h2>
-				<p>Firewall was our very first robot! Built in <em>six weeks</em> for the FRC 2013 Season, Firewall shot frisbees through a high-powered launcher and caught frisbees with it's net. Firewall performed amazingly, and helped us win Rookie All Star and Highest Rookie Seed at the Log Angeles Regional. Firewall also perfomed at the FIRST World Championships 2013 in St. Louis, Missouri.</p>
+				<p>Firewall was our very first robot! Built in <em>six weeks</em> for the FRC 2013 Season, Firewall shot frisbees through a high-powered launcher and caught frisbees with it's net. Firewall performed amazingly, and helped us win Rookie All Star and Highest Rookie Seed at the Los Angeles Regional. Firewall also perfomed at the FIRST World Championships 2013 in St. Louis, Missouri.</p>
 			</td>
 		</tr>
 		<tr>
