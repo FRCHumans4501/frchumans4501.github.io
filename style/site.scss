@@ -220,12 +220,13 @@ article {
 	strong, b { font-weight: bold; }
 }
 
-#hashtag {
+#hashtag, #socialmedia {
 	position: fixed; 
 	bottom: 0;
 	margin: 25px;
-	z-index: -1;
+}
 
+#hashtag {
 	a {
 		color: #9b00b3;
 		font-weight: bold;
@@ -238,11 +239,8 @@ article {
 }
 
 #socialmedia {
-	position: fixed; 
-	bottom: 0;
 	right: 0;
 	margin: 25px;
-	z-index: -1;
 
 	a {
 		margin-left: 10px;
