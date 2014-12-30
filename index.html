@@ -2,30 +2,22 @@
 layout: default
 ---
 <section id="sponsors">
-  <p>Our Sponsors</p>
   <ul id="largesponsors">
     <li><a href="http://www.usfirst.org/"><img src="/style/images/frc.png" /></a></li><!--
     --><li><a href="http://www.nasa.gov/"><img src="/style/images/nasa.png" /></a></li><!--
     --><li><a href="http://www.newroads.org/"><img src="/style/images/newroads.png" /></a></li>
   </ul>
-  <ul id="smallsponsors">
-    <li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
-    --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
-    --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
-    --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li><!--
-    --><li><a href="/sponsor"><img src="/style/images/sponsor-placeholder.png" /></a></li>
-  </ul>
 </section>
 {% for post in site.posts %}
   <article>
     <!-- {{ post.date | date: "%b %-d, %Y" }} -->
-    <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h1>
+    <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}">{{ post.title }}</a></h1>
       {% if post.content contains "<!-- more -->" %}
         {{ post.content | split:"<!-- more -->" | first % }}
       {% else %}
         {{ post.content }}
       {% endif %}
-    <span class="date">Posted on {{ post.date | date: '%B %-d, %Y' }}</span>
+    <span class="date"><a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">0 Comments</a> | Posted on {{ post.date | date: '%B %-d, %Y' }}</span>
   </article>
 {% endfor %}
 

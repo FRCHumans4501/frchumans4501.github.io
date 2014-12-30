@@ -4,4 +4,4 @@ title: Sponsor
 permalink: /sponsor/
 ---
 
-Sponsor Us
+Information coming soon...
