@@ -45,5 +45,15 @@ Our Robots
 				<p>During Fall 2014, New Roads School asked us to make a T-Shirt cannon to shoot T-Shirts into the crowd at sports events and other gatherings. We took it one step further by attaching our cannon onto a high-speed robot! T-Shirt Bot is able to shoot a single T-Shirt at high speeds using compressed air. Air is compressed on board, as well as off board, to give us lots of power and range. Our goal is to continuously improve T-Shirt Bot over the coming years to become the best T-Shirt Robot around!</p>
 			</td>
 		</tr>
+				<tr>
+			<td class="robotpicture">
+				<img src="http://placehold.it/185x247">
+			</td>
+			<td class="robotinfo">
+				<h2>Snowflake</h2>
+				<p>
+Snowflake was our 2014-2015 robot that competed in the national championships. Snowflake used a high powered motor to lift a pair of grabbers that use pistons to grab a tote and stack them to score points.</p>
+			</td>
+		</tr>
 	</table>
 </section>
