@@ -6,6 +6,7 @@ categories: posts
 ---
 
 As week 2 comes to an end, it comes to my attention that I have not posted anything here so here's a quick summary:
+
     •Drive Team:
         •Modified prototype drive train
         •Started working on method for getting over the moat
