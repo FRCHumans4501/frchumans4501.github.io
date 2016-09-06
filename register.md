@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Register
-permalink: /Register/
+permalink: /register/
 ---
 Welcome New And Old Recruits!
 ====
