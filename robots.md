@@ -51,8 +51,16 @@ Our Robots
 			</td>
 			<td class="robotinfo">
 				<h2>Snowflake</h2>
-				<p>
-Snowflake was our 2014-2015 robot that competed in the national championships. Snowflake used a high powered motor to lift a pair of grabbers that use pistons to grab a tote and stack them to score points.</p>
+				<p>Snowflake was our 2014-2015 robot that competed in the national championships. Snowflake used a high powered motor to lift a pair of grabbers that use pistons to grab a tote and stack them to score points.</p>
+			</td>
+		</tr>
+				<tr>
+			<td class="robotpicture">
+				<img src="http://placehold.it/185x247">
+			</td>
+			<td class="robotinfo">
+				<h2>Prince</h2>
+				<p>Prince was our 2015-2016 robot that competed in the game FIRST Stronghold. Prince had used a two speed sonic shifter drive that could provide ether high speed but low torque or with a press of a button low speed but high tourque. We could also shoot "boulders" into a tower using some motors to spin up some wheels to a high rpm and launch the "boulder" into ether high or low goal.</p>
 			</td>
 		</tr>
 	</table>
