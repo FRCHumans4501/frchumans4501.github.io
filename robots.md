@@ -56,7 +56,7 @@ Our Robots
 		</tr>
 				<tr>
 			<td class="robotpicture">
-				<img src="/style/images/robots/Big Prince.png">
+				<img src="/style/images/robots/Prince.png">
 			</td>
 			<td class="robotinfo">
 				<h2>Prince</h2>
