@@ -56,7 +56,7 @@ Our Robots
 		</tr>
 				<tr>
 			<td class="robotpicture">
-				<img src="http://placehold.it/185x247">
+				<img src="/style/images/robots/Prince.png">
 			</td>
 			<td class="robotinfo">
 				<h2>Prince</h2>
